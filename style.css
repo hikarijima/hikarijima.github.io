@@ -1,0 +1,16 @@
+/* where .selector is your element.
+*  Give it any styles you need (any display, position, sizes...)
+*  Set appropriate background-image to .multiple-desktop, don't forget about vendor prefixes.
+*/
+.selector {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .multiple-desktop {
+   /* background-image: linear-gradient(rgba(133, 149, 232, 0.58), rgba(0,0,0, .5)); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
