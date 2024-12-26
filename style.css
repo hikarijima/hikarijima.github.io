@@ -1,16 +1,29 @@
-/* where .selector is your element.
-*  Give it any styles you need (any display, position, sizes...)
-*  Set appropriate background-image to .multiple-desktop, don't forget about vendor prefixes.
-*/
-.selector {
-    width: 100px;
-    height: 100px;
-  }
-  
-  .multiple-desktop {
-   /* background-image: linear-gradient(rgba(133, 149, 232, 0.58), rgba(0,0,0, .5)); */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
+html,body {z-index: 200;;width: 100%;height: 100%;margin: 0;background-image: url(summer_bg_okinawa.JPEG);background-size: cover;background-position: center center;background-repeat: no-repeat;background-blend-mode: saturation;}
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #808080;
+  opacity: 0.5;
+  z-index: 300;
+}
+h1,h3 {
+  text-align: center;
+  width: 100%;
+}
+h1 {font-size: xxx-large;}
+h3 {font-size: 1.17em;}
+#main_div {width: 100%;height: 100%;margin: 0 auto;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+#app_list_btn {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 400;
+  width: 40.5px;
+  background-color: #000000;
+  padding: 5px;
+  border-radius: 10%;
+}
